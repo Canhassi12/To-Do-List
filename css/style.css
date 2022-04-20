@@ -63,10 +63,10 @@ body {
 
 .list-style {
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     list-style-type: none;
-    background-color: snow;
-}
+    font-family: 'Gill Sans MT'
+}    
 
 .checkbox-container {
     display: flex;
@@ -93,6 +93,10 @@ body {
 
 .icons {
     color: white;
+}
+
+.icon-edition {
+    color: black;
 }
 
 .ul1 {

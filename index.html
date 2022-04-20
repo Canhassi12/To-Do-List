@@ -27,15 +27,19 @@
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 1</h2>
             </div>
-            <ul class="ul1">
-                <li><input type="checkbox"> checkbox 1</li>
-                <li><input type="checkbox"> checkbox 2</li>
-                <li><input type="checkbox"> checkbox 3</li>
-                <li><input type="checkbox"> checkbox 4</li>                
+
+            <ul class="ul1 list-style">
+                <li><input type="checkbox"> Task 1</li>
             </ul>
-            
+
+            <div class="icon-edition">
+                <span class="material-icons">
+                    edit
+                </span>
+            </div>
+                
             <div class="icon-position">
-                <span id="icon1" class="material-icons icons">
+                <span id="icon1" onclick="createLine('.ul1')" class="material-icons icons">
                     add 
                 </span>
             </div>
@@ -46,15 +50,13 @@
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 2</h2>
             </div>
-            <ul class="ul2">
-                <li><input type="checkbox"> checkbox 1</li>
-                <li><input type="checkbox"> checkbox 2</li>
-                <li><input type="checkbox"> checkbox 3</li>
-                <li><input type="checkbox"> checkbox 4</li>                
+            <ul class="ul2 list-style">
+                <li><input type="checkbox"> Task 1</li>              
             </ul>
             
             <div class="icon-position">
-                <span id="icon2" class="material-icons icons">
+                <span id="icon2" class="material-icons icons"
+                onclick="createLine('.ul2')">
                     add 
                 </span>    
             </div>
@@ -65,15 +67,13 @@
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 3</h2>
             </div>
-            <ul class="ul3">
-                <li><input type="checkbox"> checkbox 1</li>
-                <li><input type="checkbox"> checkbox 2</li>
-                <li><input type="checkbox"> checkbox 3</li>
-                <li><input type="checkbox"> checkbox 4</li>                
+            <ul class="ul3 list-style">
+                <li><input type="checkbox"> Task 1</li>               
             </ul>
             
             <div id="icon3" class="icon-position">
-                <span  class="material-icons icons">
+                <span  class="material-icons icons"
+                onclick="createLine('.ul3')">
                     add 
                 </span>   
             </div>
@@ -84,15 +84,14 @@
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 4</h2>
             </div>
-            <ul class="ul4">
-                <li><input type="checkbox"> checkbox 1</li>
-                <li><input type="checkbox"> checkbox 2</li>
-                <li><input type="checkbox"> checkbox 3</li>
-                <li><input type="checkbox"> checkbox 4</li>                
+
+            <ul class="ul4 list-style">
+                <li><input type="checkbox"> Task 1</li>               
             </ul>
             
             <div class="icon-position">
-                <span id="icon4" class="material-icons icons">
+                <span id="icon4" class="material-icons icons"
+                onclick="createLine('.ul4')">
                     add 
                 </span>  
             </div>
