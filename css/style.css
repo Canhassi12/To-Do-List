@@ -102,6 +102,27 @@ body {
     list-style: none;
 }
 
+.ul2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+.ul3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+.ul4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
 span {
     cursor: pointer;
 }
