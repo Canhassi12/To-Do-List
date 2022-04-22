@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
     <link rel="stylesheet" href="css\style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"       rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-
 <body>
     <header class="container">
         <nav class="nav-bar">
@@ -18,87 +17,124 @@
             </a>
         </nav>
     </header>
-    
-    
+
+
     <section id="section-one" class="section-container">
-        
+
         <section class="section-Of-List">
-            
+
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 1</h2>
             </div>
 
             <ul class="ul1 list-style">
-                <li><input type="checkbox"> Task 1</li>
+                <li>
+                    <div>
+                        <input type="checkbox">
+                        <label>Task 1</label>
+                    </div>
+                    
+                    <div class="icon-edition">
+                        <span class="material-icons">
+                            edit
+                        </span>
+                    </div>
+                </li>
             </ul>
 
-            <div class="icon-edition">
-                <span class="material-icons">
-                    edit
-                </span>
-            </div>
-                
             <div class="icon-position">
                 <span id="icon1" onclick="createLine('.ul1')" class="material-icons icons">
-                    add 
+                    add
                 </span>
             </div>
         </section>
-        
+
         <section id="Section-two" class="section-Of-List">
-            
+
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 2</h2>
             </div>
-            <ul class="ul2 list-style">
-                <li><input type="checkbox"> Task 1</li>              
-            </ul>
-            
-            <div class="icon-position">
-                <span id="icon2" class="material-icons icons"
-                onclick="createLine('.ul2')">
-                    add 
-                </span>    
-            </div>
+    
+                <div class="task-edit">
+                    <ul class="ul2 list-style">
+                        <div>
+                            <input type="checkbox">
+                            <label>Task 1</label>
+                        </div>
+                    </ul>
+    
+                    <div class="icon-edition">
+                        <span class="material-icons">
+                            edit
+                        </span>
+                    </div>
+                </div>    
+                <div class="icon-position">
+                    <span id="icon2" class="material-icons icons" onclick="createLine('.ul2')">
+                        add
+                    </span>
+                </div>
         </section>
-        
+
         <section id="section-three" class="section-Of-List">
-            
+
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 3</h2>
             </div>
-            <ul class="ul3 list-style">
-                <li><input type="checkbox"> Task 1</li>               
-            </ul>
             
+            <div class="task-edit">
+                <ul class="ul3 list-style">
+                    <div>
+                        <input type="checkbox">
+                        <label>Task 1</label>
+                    </div>
+                </ul>
+
+                <div class="icon-edition">
+                    <span class="material-icons">
+                        edit
+                    </span>
+                </div>
+            </div>
+
+
             <div id="icon3" class="icon-position">
-                <span  class="material-icons icons"
-                onclick="createLine('.ul3')">
-                    add 
-                </span>   
+                <span class="material-icons icons" onclick="createLine('.ul3')">
+                    add
+                </span>
             </div>
         </section>
-        
+
         <section id="section-four" class="section-Of-List">
-            
+
             <div class="title-list" spellcheck="false">
                 <h2 contenteditable="true">Topic 4</h2>
             </div>
 
-            <ul class="ul4 list-style">
-                <li><input type="checkbox"> Task 1</li>               
-            </ul>
-            
+            <div id="edit" class="task-edit">
+                <ul class="ul4 list-style">
+                    <div>
+                        <input type="checkbox">
+                        <label>Task 1</label>
+                    </div>
+                </ul>
+
+                <div id="div-edit" class="icon-edition">
+                    <span id="span" class="material-icons">
+                        edit
+                    </span>
+                </div>
+            </div>
+
             <div class="icon-position">
-                <span id="icon4" class="material-icons icons"
-                onclick="createLine('.ul4')">
-                    add 
-                </span>  
+                <span id="icon4" class="material-icons icons" onclick="createLine('.ul4')">
+                    add
+                </span>
             </div>
         </section>
-        
+
     </section>
-    
+
     <script src="index.js"></script>
 </body>
 
